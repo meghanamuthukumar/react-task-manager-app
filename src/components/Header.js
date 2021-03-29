@@ -7,9 +7,9 @@ import {useLocation} from 'react-router-dom'
 const Header = ({ title, onAdd, showAdd}) => {
     const location = useLocation()
     return (
-        <header className='header' onClick={onAdd}>
+        <header className='header' >
             <h1>{title}</h1>
-            {location.pathname === '/' &&  <Button color={showAdd ? 'red' : 'green'} text={showAdd ? 'Close' : 'Add'} ></Button>}
+            {location.pathname === '/' &&  <Button color={showAdd ? 'red' : 'green'} text={showAdd ? 'Close' : 'Add'} onAdd={onAdd}></Button>}
         </header>
     )
 }
