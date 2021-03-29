@@ -1,12 +1,6 @@
 {
   "tasks": [
     {
-      "id": 1,
-      "title": "Grocery shopping",
-      "time": "28 Feb at 9:30 AM",
-      "reminder": true
-    },
-    {
       "id": 2,
       "title": "Laundry",
       "time": "28 Feb at 12:00 PM",
@@ -29,6 +23,12 @@
       "time": "29 Feb at 9am",
       "reminder": true,
       "id": 5
+    },
+    {
+      "title": "sxdfgd",
+      "time": "cvn",
+      "reminder": false,
+      "id": 6
     }
   ]
 }
